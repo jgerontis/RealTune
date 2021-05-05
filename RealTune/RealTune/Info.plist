@@ -33,6 +33,8 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>NSMicrophoneUsageDescription</key>
+        <string>Needs microphone to use tuner.</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

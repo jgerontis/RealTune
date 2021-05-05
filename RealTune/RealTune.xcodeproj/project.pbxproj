@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1962E502261AF556002F2E81 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1962E501261AF556002F2E81 /* GaugeView.swift */; };
+		19D5DC7025EB705D00D69D4B /* RealTuneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5DC6F25EB705D00D69D4B /* RealTuneApp.swift */; };
+		19D5DC7425EB705E00D69D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D5DC7325EB705E00D69D4B /* Assets.xcassets */; };
+		19D5DC7725EB705E00D69D4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D5DC7625EB705E00D69D4B /* Preview Assets.xcassets */; };
+		19D5DC8125EB708A00D69D4B /* Sliders in Frameworks */ = {isa = PBXBuildFile; productRef = 19D5DC8025EB708A00D69D4B /* Sliders */; };
+		19D5DC8525EB713A00D69D4B /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 19D5DC8425EB713A00D69D4B /* AudioKit */; };
+		19D5DC8A25EB72F600D69D4B /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 19D5DC8925EB72F600D69D4B /* AudioKitUI */; };
+		19D5DC8D25EB733500D69D4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5DC8C25EB733500D69D4B /* ContentView.swift */; };
+		19D5DC9525EB73B400D69D4B /* DynamicOscillator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5DC9425EB73B400D69D4B /* DynamicOscillator.swift */; };
+		19D5DC9825EB73C400D69D4B /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D5DC9725EB73C400D69D4B /* TunerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1962E501261AF556002F2E81 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		19D5DC6C25EB705D00D69D4B /* RealTune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTune.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D5DC6F25EB705D00D69D4B /* RealTuneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTuneApp.swift; sourceTree = "<group>"; };
+		19D5DC7325EB705E00D69D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19D5DC7625EB705E00D69D4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19D5DC7825EB705E00D69D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19D5DC8C25EB733500D69D4B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../backup/ContentView.swift; sourceTree = "<group>"; };
+		19D5DC9425EB73B400D69D4B /* DynamicOscillator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicOscillator.swift; sourceTree = "<group>"; };
+		19D5DC9725EB73C400D69D4B /* TunerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19D5DC6925EB705D00D69D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5DC8525EB713A00D69D4B /* AudioKit in Frameworks */,
+				19D5DC8A25EB72F600D69D4B /* AudioKitUI in Frameworks */,
+				19D5DC8125EB708A00D69D4B /* Sliders in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D5DC6325EB705D00D69D4B = {
+			isa = PBXGroup;
+			children = (
+				19D5DC6E25EB705D00D69D4B /* RealTune */,
+				19D5DC6D25EB705D00D69D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19D5DC6D25EB705D00D69D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19D5DC6C25EB705D00D69D4B /* RealTune.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19D5DC6E25EB705D00D69D4B /* RealTune */ = {
+			isa = PBXGroup;
+			children = (
+				19D5DC9725EB73C400D69D4B /* TunerView.swift */,
+				19D5DC9425EB73B400D69D4B /* DynamicOscillator.swift */,
+				19D5DC6F25EB705D00D69D4B /* RealTuneApp.swift */,
+				19D5DC8C25EB733500D69D4B /* ContentView.swift */,
+				1962E501261AF556002F2E81 /* GaugeView.swift */,
+				19D5DC7325EB705E00D69D4B /* Assets.xcassets */,
+				19D5DC7825EB705E00D69D4B /* Info.plist */,
+				19D5DC7525EB705E00D69D4B /* Preview Content */,
+			);
+			path = RealTune;
+			sourceTree = "<group>";
+		};
+		19D5DC7525EB705E00D69D4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19D5DC7625EB705E00D69D4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19D5DC6B25EB705D00D69D4B /* RealTune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19D5DC7B25EB705E00D69D4B /* Build configuration list for PBXNativeTarget "RealTune" */;
+			buildPhases = (
+				19D5DC6825EB705D00D69D4B /* Sources */,
+				19D5DC6925EB705D00D69D4B /* Frameworks */,
+				19D5DC6A25EB705D00D69D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealTune;
+			packageProductDependencies = (
+				19D5DC8025EB708A00D69D4B /* Sliders */,
+				19D5DC8425EB713A00D69D4B /* AudioKit */,
+				19D5DC8925EB72F600D69D4B /* AudioKitUI */,
+			);
+			productName = RealTune;
+			productReference = 19D5DC6C25EB705D00D69D4B /* RealTune.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19D5DC6425EB705D00D69D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					19D5DC6B25EB705D00D69D4B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 19D5DC6725EB705D00D69D4B /* Build configuration list for PBXProject "RealTune" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19D5DC6325EB705D00D69D4B;
+			packageReferences = (
+				19D5DC7F25EB708A00D69D4B /* XCRemoteSwiftPackageReference "swiftui-sliders" */,
+				19D5DC8325EB713A00D69D4B /* XCRemoteSwiftPackageReference "AudioKit" */,
+				19D5DC8825EB72F600D69D4B /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+			);
+			productRefGroup = 19D5DC6D25EB705D00D69D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19D5DC6B25EB705D00D69D4B /* RealTune */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19D5DC6A25EB705D00D69D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D5DC7725EB705E00D69D4B /* Preview Assets.xcassets in Resources */,
+				19D5DC7425EB705E00D69D4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19D5DC6825EB705D00D69D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1962E502261AF556002F2E81 /* GaugeView.swift in Sources */,
+				19D5DC7025EB705D00D69D4B /* RealTuneApp.swift in Sources */,
+				19D5DC8D25EB733500D69D4B /* ContentView.swift in Sources */,
+				19D5DC9525EB73B400D69D4B /* DynamicOscillator.swift in Sources */,
+				19D5DC9825EB73C400D69D4B /* TunerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19D5DC7925EB705E00D69D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19D5DC7A25EB705E00D69D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19D5DC7C25EB705E00D69D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RealTune/Preview Content\"";
+				DEVELOPMENT_TEAM = MM38LVRL76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RealTune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jgerontis.RealTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19D5DC7D25EB705E00D69D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"RealTune/Preview Content\"";
+				DEVELOPMENT_TEAM = MM38LVRL76;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = RealTune/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jgerontis.RealTune;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19D5DC6725EB705D00D69D4B /* Build configuration list for PBXProject "RealTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D5DC7925EB705E00D69D4B /* Debug */,
+				19D5DC7A25EB705E00D69D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19D5DC7B25EB705E00D69D4B /* Build configuration list for PBXNativeTarget "RealTune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19D5DC7C25EB705E00D69D4B /* Debug */,
+				19D5DC7D25EB705E00D69D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19D5DC7F25EB708A00D69D4B /* XCRemoteSwiftPackageReference "swiftui-sliders" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/spacenation/swiftui-sliders.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		19D5DC8325EB713A00D69D4B /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit.git";
+			requirement = {
+				branch = "v5-develop";
+				kind = branch;
+			};
+		};
+		19D5DC8825EB72F600D69D4B /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19D5DC8025EB708A00D69D4B /* Sliders */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19D5DC7F25EB708A00D69D4B /* XCRemoteSwiftPackageReference "swiftui-sliders" */;
+			productName = Sliders;
+		};
+		19D5DC8425EB713A00D69D4B /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19D5DC8325EB713A00D69D4B /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		19D5DC8925EB72F600D69D4B /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19D5DC8825EB72F600D69D4B /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 19D5DC6425EB705D00D69D4B /* Project object */;
+}
